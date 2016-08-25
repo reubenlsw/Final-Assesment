@@ -7,21 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3805BD8A9CA15A42F88D5B28 /* Pods_Final_Assesment__Reuben_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E9BE5F619D47650B6F6B47 /* Pods_Final_Assesment__Reuben_.framework */; };
 		BB0DCB061D6E97B400E4A4AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0DCB051D6E97B400E4A4AB /* AppDelegate.swift */; };
-		BB0DCB081D6E97B400E4A4AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0DCB071D6E97B400E4A4AB /* ViewController.swift */; };
+		BB0DCB081D6E97B400E4A4AB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0DCB071D6E97B400E4A4AB /* LoginViewController.swift */; };
 		BB0DCB0B1D6E97B500E4A4AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0DCB091D6E97B500E4A4AB /* Main.storyboard */; };
 		BB0DCB0D1D6E97B500E4A4AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0DCB0C1D6E97B500E4A4AB /* Assets.xcassets */; };
 		BB0DCB101D6E97B500E4A4AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0DCB0E1D6E97B500E4A4AB /* LaunchScreen.storyboard */; };
+		BB0DCB181D6E9E6700E4A4AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB0DCB171D6E9E6700E4A4AB /* GoogleService-Info.plist */; };
+		BB0DCB201D6EA3E500E4A4AB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0DCB1F1D6EA3E500E4A4AB /* HomeViewController.swift */; };
+		BB0DCB221D6EA59200E4A4AB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0DCB211D6EA59200E4A4AB /* SignUpViewController.swift */; };
+		BB0DCB241D6EA83A00E4A4AB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0DCB231D6EA83A00E4A4AB /* User.swift */; };
+		BB0DCB261D6EC33600E4A4AB /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0DCB251D6EC33600E4A4AB /* AddFriendViewController.swift */; };
+		BB0DCB281D6EC59100E4A4AB /* AddUserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0DCB271D6EC59100E4A4AB /* AddUserTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		49E9BE5F619D47650B6F6B47 /* Pods_Final_Assesment__Reuben_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Final_Assesment__Reuben_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB2CCB75157614C8F7F5713 /* Pods-Final Assesment (Reuben).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final Assesment (Reuben).debug.xcconfig"; path = "Pods/Target Support Files/Pods-Final Assesment (Reuben)/Pods-Final Assesment (Reuben).debug.xcconfig"; sourceTree = "<group>"; };
+		929F74189F3E8075289BF8CA /* Pods-Final Assesment (Reuben).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Final Assesment (Reuben).release.xcconfig"; path = "Pods/Target Support Files/Pods-Final Assesment (Reuben)/Pods-Final Assesment (Reuben).release.xcconfig"; sourceTree = "<group>"; };
 		BB0DCB021D6E97B400E4A4AB /* Final Assesment (Reuben).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Final Assesment (Reuben).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0DCB051D6E97B400E4A4AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB0DCB071D6E97B400E4A4AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BB0DCB071D6E97B400E4A4AB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BB0DCB0A1D6E97B500E4A4AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB0DCB0C1D6E97B500E4A4AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB0DCB0F1D6E97B500E4A4AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB0DCB111D6E97B500E4A4AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB0DCB171D6E9E6700E4A4AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BB0DCB1F1D6EA3E500E4A4AB /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BB0DCB211D6EA59200E4A4AB /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		BB0DCB231D6EA83A00E4A4AB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BB0DCB251D6EC33600E4A4AB /* AddFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		BB0DCB271D6EC59100E4A4AB /* AddUserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddUserTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3805BD8A9CA15A42F88D5B28 /* Pods_Final_Assesment__Reuben_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D76826891CE22B1CF400D24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49E9BE5F619D47650B6F6B47 /* Pods_Final_Assesment__Reuben_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E363CDC818CAB598FD55765 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FB2CCB75157614C8F7F5713 /* Pods-Final Assesment (Reuben).debug.xcconfig */,
+				929F74189F3E8075289BF8CA /* Pods-Final Assesment (Reuben).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BB0DCAF91D6E97B400E4A4AB = {
 			isa = PBXGroup;
 			children = (
 				BB0DCB041D6E97B400E4A4AB /* Final Assesment (Reuben) */,
 				BB0DCB031D6E97B400E4A4AB /* Products */,
+				5E363CDC818CAB598FD55765 /* Pods */,
+				1D76826891CE22B1CF400D24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,11 +91,17 @@
 			isa = PBXGroup;
 			children = (
 				BB0DCB051D6E97B400E4A4AB /* AppDelegate.swift */,
-				BB0DCB071D6E97B400E4A4AB /* ViewController.swift */,
+				BB0DCB071D6E97B400E4A4AB /* LoginViewController.swift */,
+				BB0DCB1F1D6EA3E500E4A4AB /* HomeViewController.swift */,
+				BB0DCB251D6EC33600E4A4AB /* AddFriendViewController.swift */,
+				BB0DCB271D6EC59100E4A4AB /* AddUserTableViewCell.swift */,
+				BB0DCB211D6EA59200E4A4AB /* SignUpViewController.swift */,
+				BB0DCB231D6EA83A00E4A4AB /* User.swift */,
 				BB0DCB091D6E97B500E4A4AB /* Main.storyboard */,
 				BB0DCB0C1D6E97B500E4A4AB /* Assets.xcassets */,
 				BB0DCB0E1D6E97B500E4A4AB /* LaunchScreen.storyboard */,
 				BB0DCB111D6E97B500E4A4AB /* Info.plist */,
+				BB0DCB171D6E9E6700E4A4AB /* GoogleService-Info.plist */,
 			);
 			path = "Final Assesment (Reuben)";
 			sourceTree = "<group>";
@@ -71,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB0DCB141D6E97B500E4A4AB /* Build configuration list for PBXNativeTarget "Final Assesment (Reuben)" */;
 			buildPhases = (
+				B76D9729DE335EEE954009D9 /* [CP] Check Pods Manifest.lock */,
 				BB0DCAFE1D6E97B400E4A4AB /* Sources */,
 				BB0DCAFF1D6E97B400E4A4AB /* Frameworks */,
 				BB0DCB001D6E97B400E4A4AB /* Resources */,
+				339DD852816774E7177D71E3 /* [CP] Embed Pods Frameworks */,
+				45C0024A9DDE3EF91789ABF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,18 +170,72 @@
 				BB0DCB101D6E97B500E4A4AB /* LaunchScreen.storyboard in Resources */,
 				BB0DCB0D1D6E97B500E4A4AB /* Assets.xcassets in Resources */,
 				BB0DCB0B1D6E97B500E4A4AB /* Main.storyboard in Resources */,
+				BB0DCB181D6E9E6700E4A4AB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		339DD852816774E7177D71E3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Final Assesment (Reuben)/Pods-Final Assesment (Reuben)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45C0024A9DDE3EF91789ABF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Final Assesment (Reuben)/Pods-Final Assesment (Reuben)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B76D9729DE335EEE954009D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BB0DCAFE1D6E97B400E4A4AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB0DCB081D6E97B400E4A4AB /* ViewController.swift in Sources */,
+				BB0DCB261D6EC33600E4A4AB /* AddFriendViewController.swift in Sources */,
+				BB0DCB081D6E97B400E4A4AB /* LoginViewController.swift in Sources */,
 				BB0DCB061D6E97B400E4A4AB /* AppDelegate.swift in Sources */,
+				BB0DCB221D6EA59200E4A4AB /* SignUpViewController.swift in Sources */,
+				BB0DCB241D6EA83A00E4A4AB /* User.swift in Sources */,
+				BB0DCB281D6EC59100E4A4AB /* AddUserTableViewCell.swift in Sources */,
+				BB0DCB201D6EA3E500E4A4AB /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +348,7 @@
 		};
 		BB0DCB151D6E97B500E4A4AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FB2CCB75157614C8F7F5713 /* Pods-Final Assesment (Reuben).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Final Assesment (Reuben)/Info.plist";
@@ -260,6 +360,7 @@
 		};
 		BB0DCB161D6E97B500E4A4AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 929F74189F3E8075289BF8CA /* Pods-Final Assesment (Reuben).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Final Assesment (Reuben)/Info.plist";
@@ -288,6 +389,7 @@
 				BB0DCB161D6E97B500E4A4AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
